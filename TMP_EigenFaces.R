@@ -22,8 +22,15 @@ im.train <- data$Image
 
 #  .... clue,  (strsplit(im.train[1], " ")))
 
+sample_im<-as.integer(unlist(strsplit(im.train[1], " ")))
 
+length(sample_im)
 
+# show picture
+# each image is a vector of 96*96 pixels (96*96 = 9216).
+im <- matrix(data=rev(sample_im), nrow=96, ncol=96)
+windows()
+image(1:96, 1:96, im, col=gray((0:255)/255))
 
 
 # Now let's do it for-each of the images and store in a Matrix
