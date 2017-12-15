@@ -8,3 +8,5 @@
   
   
   * PCA and t-SNE in Python
+  
+  * PCA_tSNE.pptx some slides explaining t-SNE from PCA
