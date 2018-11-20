@@ -2,8 +2,6 @@
 
 ## GOOGLE COLAB
 
-https://drive.google.com/file/d/136s1IgCYnkt4kePFJOGwPizzuoN7s58c/view?usp=sharing
-
 
   * Simple PCA interpretation using R
   * Eigenfaces in R
